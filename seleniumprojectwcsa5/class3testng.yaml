@@ -1,0 +1,9 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - testNGExecution.TestMethod1
+    - testNGExecution.TestMethod3
+    - testNGExecution.TestMethod2
+
